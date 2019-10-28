@@ -5,3 +5,9 @@ body{
 .heading-secondary {
     text-transform: uppercase;
 }
+
+.div-style {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+}
