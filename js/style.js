@@ -13,3 +13,6 @@ function myFunction() {
    }
    document.getElementById("demo1").innerHTML = voteable + " to vote.";
 }
+
+// compainring differnt types
+document.getElementById("demo2").innerHTML = '3' > '23';
