@@ -1,6 +1,6 @@
 function doSomething() {
    var string = document.getElementById('demo').innerHTML;
-   document.getElementById('demo').innerHTML = string.toLowerCase();
+   document.getElementById('demo').innerHTML = string.toUpperCase();
 }
 
 function myFunction() {
