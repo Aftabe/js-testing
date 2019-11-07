@@ -11,3 +11,10 @@ body{
     text-align: center;
     font-size: 45px;
 }
+
+#newyear{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}

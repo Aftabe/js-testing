@@ -16,3 +16,7 @@ function myFunction() {
 
 // compainring differnt types
 document.getElementById("demo2").innerHTML = '3' > '23';
+
+// Using javScript how to get full year on a webpage.
+var getFullYear = new Date();
+document.getElementById("newyear").innerHTML = getFullYear.getFullYear();
