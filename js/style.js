@@ -20,3 +20,9 @@ document.getElementById("demo2").innerHTML = '3' > '23';
 // Using javScript how to get full year on a webpage.
 var getFullYear = new Date();
 document.getElementById("newyear").innerHTML = getFullYear.getFullYear();
+
+
+
+// identifiers operators
+var comx = '7' === 7;
+document.getElementById('test').innerHTML = comx;
