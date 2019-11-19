@@ -18,3 +18,12 @@ body{
     color: white;
     font-weight: bold;
 }
+#age {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.custom-btn {
+    padding: 10px;
+    font-size: 20px;
+}
