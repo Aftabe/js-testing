@@ -26,3 +26,12 @@ document.getElementById("newyear").innerHTML = getFullYear.getFullYear();
 // identifiers operators
 var comx = '7' === 7;
 document.getElementById('test').innerHTML = comx;
+
+// array
+var ages = [12, 17, 30, 18, 45, 57];
+var over18 = ages.filter(yesFuncton);
+document.getElementById('array').innerHTML = 'People with the age of ' +  over18 + ' can vote.';
+
+function yesFuncton(value, index, array){
+   return value > 18;
+}
