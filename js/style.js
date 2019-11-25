@@ -35,3 +35,22 @@ document.getElementById('array').innerHTML = 'People with the age of ' +  over18
 function yesFuncton(value, index, array){
    return value > 18;
 }
+
+// How to style HTML element using javascript
+
+(function(){
+
+   var divFoo = document.getElementById('foo'),
+        style = divFoo.style;
+
+
+   style.color = 'green';
+   style.fontSize = '30px';
+   style.border = '3px solid black';
+   style.padding = '5px';
+   style.backgroundColor = 'yellowgreen';
+
+
+   alert(style.color);
+
+}());
