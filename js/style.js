@@ -44,13 +44,13 @@ function yesFuncton(value, index, array){
         style = divFoo.style;
 
 
-   style.color = 'green';
-   style.fontSize = '30px';
-   style.border = '3px solid black';
-   style.padding = '5px';
-   style.backgroundColor = 'yellowgreen';
+   // style.color = 'green';
+   // style.fontSize = '30px';
+   // style.border = '3px solid black';
+   // style.padding = '5px';
+   // style.backgroundColor = 'yellowgreen';
 
+   divFoo.className = 'css-classA';
 
-   alert(style.color);
 
 }());
