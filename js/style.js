@@ -7,9 +7,9 @@ function myFunction() {
    var age, voteable;
    age = Number(document.getElementById('age').value);
    if (isNaN(age)) {
-      voteable = 'Input is not a number';
+      voteable = 'Input is not a number.';
    } else {
-      voteable = (age < 18) ? "Too young" : "Old enough";
+      voteable = (age < 18) ? "Too young" : "Old enough.";
    }
    document.getElementById("demo1").innerHTML = voteable + " to vote.";
 }
