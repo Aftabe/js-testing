@@ -61,7 +61,7 @@ var globalVar = 'This is a global variable.';
 
 function gloabalFunction() {
    alert(globalVar);
-   globalVar = 'The value has been modified.';
+   globalVar = 'The value had been modified.';
 };
 
 gloabalFunction();
