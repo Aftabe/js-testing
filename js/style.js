@@ -54,3 +54,15 @@ function yesFuncton(value, index, array){
    alert(style.color);
 
 }());
+
+// scope in javascript
+
+var globalVar = 'This is a global variable.';
+
+function gloabalFunction() {
+   alert(globalVar);
+   globalVar = 'The value has been modified.';
+};
+
+gloabalFunction();
+alert(globalVar);
