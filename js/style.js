@@ -78,15 +78,25 @@ function yesFuncton(value, index, array) {
    demo.innerHTML = html;
 }());
 
+//New method
+(function(){
 
-// scope in javascript
+   const productA = 'Book',
+      priceA = '$' + 20,
+      productB = 'bag',
+      priceB = '$' + 30;
 
-var globalVar = 'This is a global variable.';
+   let html;
+   html = `
+          <ul>
+          <li> item: ${productA} </li>
+          <li> item: ${priceA} </li>
+          <li> item: ${productB} </li>
+          <li> item: ${priceB} </li>
+          <li> item: ${priceA + productB} </li>
+          `  
 
-function gloabalFunction() {
-   alert(globalVar);
-   globalVar = 'The value had been modified.';
-};
 
-gloabalFunction();
-alert(globalVar);
+   var demo = document.querySelector('#demo');
+   demo.innerHTML = html;
+}());
