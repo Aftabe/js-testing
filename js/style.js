@@ -8,9 +8,9 @@ function myFunction() {
    var age, voteable;
    age = Number(document.getElementById('age').value);
    if (isNaN(age)) {
-      voteable = 'Input is not a number';
+      voteable = 'Input is not a number.';
    } else {
-      voteable = (age < 18) ? "Too young" : "Old enough";
+      voteable = (age < 18) ? "Too young" : "Old enough.";
    }
    document.getElementById("demo1").innerHTML = voteable + " to vote.";
 }
@@ -79,3 +79,14 @@ function yesFuncton(value, index, array) {
 }());
 
 
+// scope in javascript
+
+var globalVar = 'This is a global variable.';
+
+function gloabalFunction() {
+   alert(globalVar);
+   globalVar = 'The value had been modified.';
+};
+
+gloabalFunction();
+alert(globalVar);
