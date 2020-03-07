@@ -1,3 +1,4 @@
+
 function doSomething() {
    var string = document.getElementById('demo').innerHTML;
    document.getElementById('demo').innerHTML = string.toUpperCase();
@@ -30,18 +31,18 @@ document.getElementById('test').innerHTML = comx;
 // array
 var ages = [12, 17, 30, 18, 45, 57];
 var over18 = ages.filter(yesFuncton);
-document.getElementById('array').innerHTML = 'People with the age of ' +  over18 + ' can vote.';
+document.getElementById('array').innerHTML = 'People with the age of ' + over18 + ' can vote.';
 
-function yesFuncton(value, index, array){
+function yesFuncton(value, index, array) {
    return value > 18;
 }
 
 // How to style HTML element using javascript
 
-(function(){
+(function () {
 
    var divFoo = document.getElementById('foo'),
-        style = divFoo.style;
+      style = divFoo.style;
 
 
    style.color = 'green';
@@ -54,3 +55,27 @@ function yesFuncton(value, index, array){
    alert(style.color);
 
 }());
+// Template literals or template strings
+// Step one is going to be old method
+(function(){
+
+   const productA = 'Book',
+      priceA = '$' + 20,
+      productB = 'bag',
+      priceB = '$' + 30;
+
+   let html;
+   html = '<ul>' +
+      '<li> item:' + productA + '</li>' +
+      '<li> price:' + priceA + '</li>' +
+      '<li> item:' + productB + '</li>' +
+      '<li> item:' + priceB + '</li>' +
+      '<li> total:' + priceA + priceB + '</li>' +
+      '</ul>';
+
+
+   var demo = document.querySelector('#demo');
+   demo.innerHTML = html;
+}());
+
+
