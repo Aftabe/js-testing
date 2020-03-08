@@ -93,12 +93,13 @@ function yesFuncton(value, index, array) {
           <li> item: ${priceA} </li>
           <li> item: ${productB} </li>
           <li> item: ${priceB} </li>
-          <li> item: ${total} </li>
-          `  
-   function total(priceA,priceB){
-      return priceA + priceB;
-   }
+          <li> item: ${priceA + productB} </li>
+          </ul>
 
-   var demo = document.querySelector('#demo');
-   demo.innerHTML = html;
+          `;
+            
+
+
+   var demo = document.querySelector('#demo').innerHTML = html;
+   // demo.innerHTML = html;
 }());
