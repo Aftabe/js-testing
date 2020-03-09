@@ -45,7 +45,7 @@ function yesFuncton(value, index, array) {
       style = divFoo.style;
 
 
-   style.color = 'green';
+   style.color = 'Hello';
    style.fontSize = '30px';
    style.border = '3px solid black';
    style.padding = '5px';
