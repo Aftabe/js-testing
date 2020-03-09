@@ -49,7 +49,7 @@ function yesFuncton(value, index, array) {
    style.fontSize = '30px';
    style.border = '3px solid black';
    style.padding = '5px';
-   style.backgroundColor = 'yellowgreen';
+   style.backgroundColor = '#343f33';
 
 
    alert(style.color);
