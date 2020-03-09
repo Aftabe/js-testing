@@ -57,7 +57,7 @@ function yesFuncton(value, index, array) {
 }());
 // Template literals or template strings
 // Step one is going to be old method
-(function(){
+(function () {
 
    const productA = 'Book',
       priceA = '$' + 20,
@@ -74,32 +74,33 @@ function yesFuncton(value, index, array) {
       '</ul>';
 
 
-   var demo = document.querySelector('#demo');
+   var demo = document.querySelector('#demoA');
    demo.innerHTML = html;
 }());
 
 //New method
-(function(){
+(function () {
 
    const productA = 'Book',
       priceA = '$' + 20,
       productB = 'bag',
-      priceB = '$' + 30;
+      priceB = 30;
 
    let html;
    html = `
-          <ul>
-          <li> item: ${productA} </li>
-          <li> item: ${priceA} </li>
+   <ul>
+   <li> item: ${productB} </li>
+          <li> price: ${priceA} </li>
           <li> item: ${productB} </li>
-          <li> item: ${priceB} </li>
-          <li> item: ${priceA + productB} </li>
-          </ul>
+          <li> price: ${priceB} </li>
+          <li> total: ${doSomething(priceA,priceB)} </li>
+   </ul>
+   `;
+function doSomething(priceA,priceB){
+   return priceA + priceB;
+}
 
-          `;
-            
 
-
-   var demo = document.querySelector('#demo').innerHTML = html;
-   // demo.innerHTML = html;
+   var demo = document.querySelector('#demoB');
+   demo.innerHTML = html;
 }());
