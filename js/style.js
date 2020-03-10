@@ -1,7 +1,8 @@
 
 function doSomething() {
-   var string = document.getElementById('demo').innerHTML;
-   document.getElementById('demo').innerHTML = string.toUpperCase();
+   var string = document.getElementById('demo');
+       let mod = string.innerHTML.toLocaleLowerCase();
+       document.getElementById('demo').innerHTML = mod;
 }
 
 function myFunction() {
