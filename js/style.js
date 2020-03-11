@@ -107,3 +107,12 @@ function doSomething(priceA,priceB){
    var demo = document.querySelector('#demoB');
    demo.innerHTML = html;
 }());
+// Function expression syntex
+(function(){
+   var saySomeThing = function(){
+      var sum = 1500 + 520;
+      alert(sum);
+   };
+
+   saySomeThing();
+}())
