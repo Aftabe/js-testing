@@ -37,7 +37,7 @@ var over18 = ages.filter(yesFuncton);
 document.getElementById('array').innerHTML = 'People with the age of ' + over18 + ' can vote.';
 
 function yesFuncton(value, index, array) {
-   return value > 18;
+   return value > 19;
 }
 
 // How to style HTML element using javascript
