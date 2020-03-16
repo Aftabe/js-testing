@@ -116,3 +116,16 @@ function doSomething(priceA,priceB){
 
    saySomeThing();
 }())
+
+// While loops     using imediatly invoked function 
+(function(){
+
+
+   let i = 0;  // initialization
+
+   while(i < 10){  //condition
+
+      alert(`${i}`);
+      i++;   // incremention
+   }
+}())
