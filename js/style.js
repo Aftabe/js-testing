@@ -120,10 +120,13 @@ function doSomething(priceA,priceB){
 // While loops     using imediatly invoked function 
 (function(){
 
+   const names = ['Ali','Khadim','Sadiq'],
+         mod = names.length;
+
 
    let i = 0;  // initialization
 
-   while(i < 10){  //condition
+   while(i < mod){  //condition
 
       alert(`${i}`);
       i++;   // incremention
