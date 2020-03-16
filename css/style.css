@@ -17,7 +17,7 @@ body{
 #newyear{
     text-align: center;
     font-size: 30px;
-    color: rgb(26, 194, 90);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 #age {
@@ -41,7 +41,7 @@ body{
 
 #foo{ }
 .css-classA{
-    color: green;
+    color: rgb(223, 173, 37) !important;
    font-size: 30px;
    border: 3px solid black;
    padding: 5px;
