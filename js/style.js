@@ -132,3 +132,9 @@ function doSomething(priceA,priceB){
       i++;   // incremention
    }
 }())
+
+let getEl;
+
+getEl = document.all;
+
+alert(getEl);
