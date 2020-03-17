@@ -133,8 +133,9 @@ function doSomething(priceA,priceB){
    }
 }())
 
-let getEl;
+const getEl;
 
 getEl = document.all;
 
 alert(getEl);
+console.log(getEl);
