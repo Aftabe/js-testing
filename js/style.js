@@ -115,7 +115,7 @@ function yesFuncton(value, index, array) {
    };
 
    saySomeThing();
-}())
+}());
 
    // While loops     using imediatly invoked function 
    (function () {
@@ -131,17 +131,7 @@ function yesFuncton(value, index, array) {
          alert(`${i}`);
          i++;   // incremention
       }
-   }())
-
-const getEl;
-
-getEl = document.all;
-
-alert(getEl);
-console.log(getEl);
-
-
-
+   }());
 // Local storage inside the immediatly invoked function
 (function () {
 
@@ -158,7 +148,7 @@ if (localStorageContent === null) {
 
 // console.log(JSON.parse(localStorageContent));
 
-// names.push('Samadi');
-names = 'This is where you can learn coding';
+// names = 'This is where you can learn coding';
+names.push('Samadi');
 
 localStorage.setItem('name', JSON.stringify(names));
