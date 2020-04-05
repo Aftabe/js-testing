@@ -144,19 +144,21 @@ console.log(getEl);
 
 // Local storage inside the immediatly invoked function
 (function () {
-   let localStorageContent = localStorage.getItem('name');
 
-   let names;
-   if (localStorageContent === null) {
-      names = [];
-   } else {
-      names = JSON.parse(localStorageContent);
-   }
-
-   // console.log(JSON.parse(localStorageContent));
-
-   // names.push('Samadi');
-   names = 'This is where you can learn coding';
-
-   localStorage.setItem('name', JSON.stringify(names));
 }());
+
+let localStorageContent = localStorage.getItem('name');
+
+let names;
+if (localStorageContent === null) {
+   names = [];
+} else {
+   names = JSON.parse(localStorageContent);
+}
+
+// console.log(JSON.parse(localStorageContent));
+
+// names.push('Samadi');
+names = 'This is where you can learn coding';
+
+localStorage.setItem('name', JSON.stringify(names));
