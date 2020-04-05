@@ -1,8 +1,8 @@
 
 function doSomething() {
    var string = document.getElementById('demo');
-       let mod = string.innerHTML.toUpperCase();
-       document.getElementById('demo').innerHTML = mod;
+   let mod = string.innerHTML.toUpperCase();
+   document.getElementById('demo').innerHTML = mod;
 }
 
 doSomething();
@@ -96,20 +96,20 @@ function yesFuncton(value, index, array) {
           <li> price: ${priceA} </li>
           <li> item: ${productB} </li>
           <li> price: ${priceB} </li>
-          <li> total: ${doSomething(priceA,priceB)} </li>
+          <li> total: ${doSomething(priceA, priceB)} </li>
    </ul>
    `;
-function doSomething(priceA,priceB){
-   return priceA + priceB;
-}
+   function doSomething(priceA, priceB) {
+      return priceA + priceB;
+   }
 
 
    var demo = document.querySelector('#demoB');
    demo.innerHTML = html;
 }());
 // Function expression syntex
-(function(){
-   var saySomeThing = function(){
+(function () {
+   var saySomeThing = function () {
       var sum = 1500 + 520;
       alert(sum);
    };
@@ -117,21 +117,21 @@ function doSomething(priceA,priceB){
    saySomeThing();
 }())
 
-// While loops     using imediatly invoked function 
-(function(){
+   // While loops     using imediatly invoked function 
+   (function () {
 
-   const names = ['Ali','Khadim','Sadiq'],
+      const names = ['Ali', 'Khadim', 'Sadiq'],
          mod = names.length;
 
 
-   let i = 0;  // initialization
+      let i = 0;  // initialization
 
-   while(i < mod){  //condition
+      while (i < mod) {  //condition
 
-      alert(`${i}`);
-      i++;   // incremention
-   }
-}())
+         alert(`${i}`);
+         i++;   // incremention
+      }
+   }())
 
 const getEl;
 
@@ -139,3 +139,24 @@ getEl = document.all;
 
 alert(getEl);
 console.log(getEl);
+
+
+
+// Local storage inside the immediatly invoked function
+(function () {
+   let localStorageContent = localStorage.getItem('name');
+
+   let names;
+   if (localStorageContent === null) {
+      names = [];
+   } else {
+      names = JSON.parse(localStorageContent);
+   }
+
+   // console.log(JSON.parse(localStorageContent));
+
+   // names.push('Samadi');
+   names = 'This is where you can learn coding';
+
+   localStorage.setItem('name', JSON.stringify(names));
+}());
