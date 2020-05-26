@@ -3,6 +3,7 @@ var cars = ["", "Volvo", "BMW"];
 
 
 cars[0] = new Date();
+cars[1] = myFunction('Ali', 'Karimi');
 
 
 // mod;
@@ -10,7 +11,10 @@ cars[0] = new Date();
 
 // mod = cars[0].push('Toyota');
 
-
+function myFunction(p1, p2){
+   var txt = 'Hey dear ' + p1 + " " + p2 + ' Welcome to our party';
+   document.getElementById('demoA').innerHTML = txt;
+}
 
 
 
