@@ -13,7 +13,8 @@ cars[1] = myFunction('Ali', 'Karimi');
 
 function myFunction(p1, p2){
    var txt = 'Hey dear ' + p1 + " " + p2 + ' Welcome to our party';
-   document.getElementById('demoA').innerHTML = txt;
+   // document.getElementById('demoA').innerHTML = txt;
+   return txt;
 }
 
 
