@@ -2,4 +2,6 @@
     width: 70px;
     height: 3px;
     background-color: red;
+    margin-top: 0 !important;
+    margin-left: 10px;
 }
