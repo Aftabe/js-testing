@@ -25,9 +25,15 @@ console.log(typeof mod);
 
 // new arrays
 var persons = ['Ali', 'Khadim', 'Sadiq', 'Bashir'];
+var numbers = [20, 40, 10, 60, 4];
 
 
 persons.sort();
 
+numbers.sort(function(a, b){
+   return a - b;
+});
+
 
 document.getElementById('js-demo').innerHTML = persons;
+document.getElementById('js-demo').innerHTML = numbers;
