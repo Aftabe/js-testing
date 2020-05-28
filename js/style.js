@@ -21,3 +21,13 @@ function myFunction(p1, p2){
 
 document.getElementById("demo").innerHTML = cars;
 console.log(typeof mod);
+
+
+// new arrays
+var persons = ['Ali', 'Khadim', 'Sadiq', 'Bashir'];
+
+
+persons.sort();
+
+
+document.getElementById('js-demo').innerHTML = persons;
