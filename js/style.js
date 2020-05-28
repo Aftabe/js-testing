@@ -3,7 +3,7 @@ var cars = ["", "Volvo", "BMW"];
 
 
 cars[0] = new Date();
-cars[1] = myFunction('Ali', 'Karimi');
+cars[2] = myFunction('Ali', 'Karimi');
 
 
 // mod;
