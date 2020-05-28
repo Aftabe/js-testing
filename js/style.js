@@ -29,6 +29,7 @@ var numbers = [20, 40, 10, 60, 4];
 
 
 persons.sort();
+delete numbers[1];
 
 numbers.sort(function(a, b){
    return a - b;
