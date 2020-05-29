@@ -38,7 +38,7 @@ document.getElementById('js-demo').innerHTML = persons;
 document.getElementById('js-demo').innerHTML = numbers;
 
 
-(function () {
+(function() {
    var fruits = ["Banana", "Orange", "Apple", "Mango"];
    document.getElementById("demo1").innerHTML = "Original Array:<br>" + fruits;
    function myFunction(){
