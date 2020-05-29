@@ -40,8 +40,10 @@
 
 // (function () {
 // })();
-
-
+let body = document.body.style;
+body.backgroundColor = 'grey';
+body.padding = '20px';
+body.border = '1px solid green';
 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo1").innerHTML = "Original Array:<br>" + fruits;
