@@ -51,3 +51,8 @@ function myFunction() {
    fruits.splice(2, 0, "Lemon", "Kiwi");
    document.getElementById("demo2").innerHTML = "New Array:<br>" + fruits;
 }
+
+// new element
+function changeBackgroundColor(){
+   document.getElementById('demo').style.backgroundColor = 'blue';
+}
