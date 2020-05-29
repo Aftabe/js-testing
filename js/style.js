@@ -45,5 +45,8 @@ document.getElementById('js-demo').innerHTML = numbers;
       fruits.splice(2, 0, "Lemon", "Kiwi");
       document.getElementById("demo2").innerHTML = "New Array:<br>" + fruits;
    }
-   myFunction();
+
+   var call = myFunction();
+   alert(call);
+   // myFunction();
 })();
