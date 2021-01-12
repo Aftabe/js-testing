@@ -10,7 +10,7 @@ body {
 /* Buttons */
 .grey{
     background-color: grey;
-    color: red;
+    /* color: red; */
 }
 .black{
     background-color: black;
