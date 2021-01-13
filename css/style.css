@@ -12,9 +12,9 @@ body {
     background-color: grey;
     /* color: red; */
 }
-.black{
-    background-color: black;
-    color: white;
+.white{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 
