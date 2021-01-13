@@ -3,9 +3,6 @@ for(i = 0; i < btns.length; i++){
    btns[i].onclick = function(){
       var className = this.innerHTML.toLowerCase();
       document.body.className = className;
-
-    
-
-      
+      // document.body.className = 'border';
    }
 }
