@@ -12,4 +12,5 @@
 // This is for tesing js
 document.addEventListener('click', function(){
    document.body.style.backgroundColor = 'green';
+   alert('Click somewhere on the screen');
 })
