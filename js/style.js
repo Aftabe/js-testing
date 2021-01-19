@@ -14,5 +14,6 @@ document.addEventListener('click', function(){
    var doc = document.body.style;
    doc.backgroundColor = 'green';
    doc.color = 'white';
-   alert('Background color will be changed');
+   doc.fontSize = '40px';
+   alert('Background color will be changed green');
 })
