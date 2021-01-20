@@ -17,3 +17,11 @@ document.addEventListener('click', function(){
    doc.fontSize = '40px';
    alert('Background color will be changed green');
 })
+
+// comn
+var comn = document.getElementById('comn');
+comn.addEventListener("click", changeAll)
+
+function changeAll(){
+   alert(1);
+}
