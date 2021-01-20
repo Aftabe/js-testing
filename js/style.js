@@ -23,5 +23,5 @@ var comn = document.getElementById('comn');
 comn.addEventListener("click", changeAll)
 
 function changeAll(){
-   alert(1);
+   document.body.style.backgroundColor = 'red';
 }
