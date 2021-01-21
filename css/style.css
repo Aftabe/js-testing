@@ -27,3 +27,12 @@ body {
 .heading-text{
     text-align: center;
 }
+
+/* new-box */
+#new-box{
+    width: 300px;
+    height: 340px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
