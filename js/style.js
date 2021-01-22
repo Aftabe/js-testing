@@ -17,18 +17,38 @@
 //    alert('Background color will be changed green');
 // })
 
+
+
 // comn
-var comn = document.getElementById('comn');
-comn.addEventListener("click", changeAll)
 
-function changeAll(){
-   document.body.style.backgroundColor = 'red';
+
+
+
+// var comn = document.getElementById('comn');
+// comn.addEventListener("click", changeAll)
+
+// function changeAll(){
+//    document.body.style.backgroundColor = 'red';
+// }
+
+// // new-box
+// var newBox = document.getElementById('new-box');
+// newBox.addEventListener('click', doSomething);
+
+// function doSomething(){
+//    alert(1);
+// }
+
+
+// inp-btn
+var btnClick = document.querySelector('.inp-btn');
+btnClick.addEventListener('click', saySomething);
+
+
+// saySomething function
+
+function saySomething(e){
+   e.preventDefault();
+   document.body.style.backgroundColor = 'green';
 }
 
-// new-box
-var newBox = document.getElementById('new-box');
-newBox.addEventListener('click', doSomething);
-
-function doSomething(){
-   alert(1);
-}
