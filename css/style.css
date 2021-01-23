@@ -1,4 +1,5 @@
 body {
+    background-color: #b5dd78;
     font-family: "Sofia";
     padding: 10px;
 }
@@ -16,6 +17,9 @@ body {
 .white{
     background-color: rgb(255, 255, 255);
     color: #000000;
+}
+.common{
+    background-color: rgb(221, 211, 120);
 }
 
 
@@ -39,7 +43,7 @@ body {
 
 .inp-btn{
     padding: 7px 25px;
-    background-color: grey;
+    background-color: #69d5dd;
     cursor: pointer;
 
 }
