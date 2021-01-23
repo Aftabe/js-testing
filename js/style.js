@@ -50,5 +50,6 @@ btnClick.addEventListener('click', saySomething);
 function saySomething(e){
    e.preventDefault();
    document.body.style.backgroundColor = 'green';
+   document.getElementById('new-box').style.border = '1px solid white';
 }
 
