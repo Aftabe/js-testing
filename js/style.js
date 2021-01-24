@@ -41,7 +41,7 @@
 
 
 // inp-btn
-var btnClick = document.querySelector('.inp-btn');
+var btnClick = document.querySelector('span');
 btnClick.addEventListener('click', saySomething);
 
 
@@ -49,7 +49,9 @@ btnClick.addEventListener('click', saySomething);
 
 function saySomething(e){
    e.preventDefault();
-   document.body.style.backgroundColor = 'green';
-   document.getElementById('new-box').style.border = '1px solid white';
+   // document.body.style.backgroundColor = 'green';
+   // document.getElementById('new-box').style.border = '1px solid white';
+   var newClass = this.innerHTML.toLowerCase();
+   document.body.className = newClass;
 }
 
