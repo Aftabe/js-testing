@@ -55,3 +55,23 @@ function saySomething(e){
    document.body.className = newClass;
 }
 
+// Constractor and this
+const client = {
+   name: 'Juan',
+   balance: 2000,
+   membership : function() {
+          let name;
+          // Check different Balance
+          if(this.balance > 1000) {
+             name = 'Gold';
+          } else if(this.saldo > 500) {
+             name = 'Platinum';
+          } else {
+             name  = 'Normal';
+          }
+          return name;
+   }
+}
+
+console.log(client.membership());
+
