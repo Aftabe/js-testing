@@ -57,7 +57,7 @@ function saySomething(e){
 
 // Constractor and this
 const client = {
-   name: 'Juan',
+   fistName: 'Juan',
    balance: 2000,
    membership : function() {
           let name;
@@ -72,6 +72,6 @@ const client = {
           return name;
    }
 }
-
+console.log(client.fistName);
 console.log(client.membership());
 
