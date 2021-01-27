@@ -40,6 +40,9 @@
 // }
 
 
+// This is very important to remeber whenver using attribute  they come first and the other tags used may not be working
+//when executing any functions
+
 // inp-btn
 var btnClick = document.querySelector('span');
 btnClick.addEventListener('click', saySomething);
